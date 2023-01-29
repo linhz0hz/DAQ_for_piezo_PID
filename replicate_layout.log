@@ -1,0 +1,74 @@
+11-13 18:27:39 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+11-13 18:27:39 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
+11-13 18:27:39 replicate_layout.action_replicate_layout 307:KiCad build version: (6.0.7)
+11-13 18:27:39 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 77 started
+11-13 18:27:39 replicate_layout.action_replicate_layout 339:Preparing replicator with IC1 as a reference
+11-13 18:27:39 replicate_layout.replicatelayout 141:getting a list of all footprints on board
+11-13 18:27:39 replicate_layout.replicatelayout 162:total modules:163
+11-13 18:27:39 replicate_layout.action_replicate_layout 366:source anchor footprint is 'IC1'
+Located on:['ADS8863_ChannelA']
+With filenames:['ADS8863_Channel.kicad_sch']
+With sheet_id:['ADS8863_ChannelA']
+11-13 18:27:39 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[('IC2', ['ADS8863_ChannelB']), ('IC1', ['ADS8863_ChannelA'])]
+11-13 18:27:39 replicate_layout.action_replicate_layout 384:Showing dialog
+11-13 18:27:39 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-9, -9)
+11-13 18:27:39 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+11-13 18:27:39 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1878, 96)
+11-13 18:27:39 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1565, 96)
+11-13 18:27:40 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'ADS8863_ChannelA', file:'ADS8863_Channel.kicad_sch'
+11-13 18:27:40 replicate_layout.replicatelayout 184:Source sheet path up to the level:['ADS8863_ChannelA']
+11-13 18:27:40 replicate_layout.replicatelayout 188:Footprints on the sheets:
+['IC2', 'IC1']
+11-13 18:27:40 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/61fa6d54-ee1b-48a6-88f1-fd469cf425ec/e5e95e9d-63e0-4503-a4e7-42104ac1f4ef/c5174364-72ac-43de-ba9e-8699e647eca7', '/61fa6d54-ee1b-48a6-88f1-fd469cf425ec/a12b30a3-d363-4103-80c0-12850570be54/c5174364-72ac-43de-ba9e-8699e647eca7']
+11-13 18:27:40 replicate_layout.replicatelayout 207:All sheets to replicate:
+[['ADS8863_ChannelB'], ['ADS8863_ChannelA']]
+11-13 18:27:40 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['ADS8863_ChannelA'], ['ADS8863_ChannelB']]
+11-13 18:27:40 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['ADS8863_ChannelB']]
+11-13 18:27:41 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'ADS8863_ChannelA', file:'ADS8863_Channel.kicad_sch'
+11-13 18:27:41 replicate_layout.replicatelayout 184:Source sheet path up to the level:['ADS8863_ChannelA']
+11-13 18:27:41 replicate_layout.replicatelayout 188:Footprints on the sheets:
+['IC2', 'IC1']
+11-13 18:27:41 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/61fa6d54-ee1b-48a6-88f1-fd469cf425ec/e5e95e9d-63e0-4503-a4e7-42104ac1f4ef/c5174364-72ac-43de-ba9e-8699e647eca7', '/61fa6d54-ee1b-48a6-88f1-fd469cf425ec/a12b30a3-d363-4103-80c0-12850570be54/c5174364-72ac-43de-ba9e-8699e647eca7']
+11-13 18:27:41 replicate_layout.replicatelayout 207:All sheets to replicate:
+[['ADS8863_ChannelB'], ['ADS8863_ChannelA']]
+11-13 18:27:41 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['ADS8863_ChannelA'], ['ADS8863_ChannelB']]
+11-13 18:27:41 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['ADS8863_ChannelB']]
+11-13 18:27:41 replicate_layout.action_replicate_layout 179:Replicating layout
+11-13 18:27:41 replicate_layout.replicatelayout 927:Starting replication of sheets: [['ADS8863_ChannelB']]
+on level: ['ADS8863_ChannelA']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+11-13 18:27:41 root 261:updating GUI message: 'Preparing for replication'
+11-13 18:27:41 root 266:updating GUI with: 0
+11-13 18:27:41 replicate_layout.replicatelayout 491:Getting the list of source footprints
+11-13 18:27:41 replicate_layout.replicatelayout 495:Getting the list of all the remaining footprints
+11-13 18:27:41 replicate_layout.replicatelayout 499:Getting nets local to source footprints
+11-13 18:27:41 replicate_layout.replicatelayout 503:Getting source bounding box
+11-13 18:27:41 root 266:updating GUI with: 37
+11-13 18:27:41 replicate_layout.replicatelayout 507:Getting source tracks
+11-13 18:27:41 replicate_layout.replicatelayout 511:Getting source zones
+11-13 18:27:41 replicate_layout.replicatelayout 515:Getting source text items
+11-13 18:27:41 replicate_layout.replicatelayout 519:Getting source text items
+11-13 18:27:41 root 261:updating GUI message: 'Replicating footprints'
+11-13 18:27:41 replicate_layout.replicatelayout 525:Replicating footprints
+11-13 18:27:41 replicate_layout.replicatelayout 531:Replicating footprints on sheet ['ADS8863_ChannelB']
+11-13 18:27:41 root 261:updating GUI message: 'Replicating tracks'
+11-13 18:27:41 replicate_layout.replicatelayout 657:Replicating tracks
+11-13 18:27:41 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['ADS8863_ChannelB']
+11-13 18:27:41 root 266:updating GUI with: 10
+11-13 18:27:41 root 261:updating GUI message: 'Replicating zones'
+11-13 18:27:41 replicate_layout.replicatelayout 708:Replicating zones
+11-13 18:27:41 replicate_layout.replicatelayout 715:Replicating zones on sheet ['ADS8863_ChannelB']
+11-13 18:27:41 root 261:updating GUI message: 'Replicating text'
+11-13 18:27:41 replicate_layout.replicatelayout 773:Replicating text
+11-13 18:27:41 replicate_layout.replicatelayout 780:Replicating text on sheet ['ADS8863_ChannelB']
+11-13 18:27:41 root 261:updating GUI message: 'Replicating drawings'
+11-13 18:27:41 replicate_layout.replicatelayout 804:Replicating drawings
+11-13 18:27:41 replicate_layout.replicatelayout 810:Replicating drawings on sheet ['ADS8863_ChannelB']
+11-13 18:27:41 replicate_layout.action_replicate_layout 201:Replication complete
